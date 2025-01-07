@@ -17,14 +17,19 @@ body{
     margin-top: 100px;
     border:1px solid black;
     box-shadow: 10px 3px 60px rgb(146, 145, 145);
+    transition:1s all;
 }
 .card{
     width: 300px;
     height: 420px;
     position: relative;
     background-color:rgba(192, 189, 189, 0.762);
+    
 }
-
+.container:hover{
+    transform: scale(1.1);
+    
+}
 .product-img{
     width: 300px;
     height: 250px;
@@ -95,27 +100,4 @@ body{
     border-radius: 50%;
 
 }
-.btn::before{
-    content:"";
-    position: absolute;
-    top:50%;
-    left:50%;
-    transform: translate(-50%, -50%);
-    border:1px solid #35353f;
-    height: 45px;
-    transition: 0.3s;
-}
 
-.card::before{
-    width: 165px;
-    border-radius: 50px;
-}
-.favourite::before{
-    width: 45px;
-    border-radius: 50%;
-
-}
-
-.btn:hover::before{
-    border-color: white;
-}

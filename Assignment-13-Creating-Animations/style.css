@@ -21,7 +21,7 @@ body{
    animation-duration: 2000ms;
    animation-name: left-right;
    animation-duration: 3s;
-   transform-style: preserve-3d;
+   animation-iteration-count: infinite;
    
    
 }
