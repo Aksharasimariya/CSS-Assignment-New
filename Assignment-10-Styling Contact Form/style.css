@@ -39,7 +39,7 @@ button{
     width: 250px;
     height: 30px;
     border-radius:10px ;
-    margin-left: 70px;
+    margin: 0 auto;
     margin-top: 30px;
     border: none;
     outline: none;
